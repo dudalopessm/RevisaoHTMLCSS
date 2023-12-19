@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natura</title>
+    <link rel="stylesheet" href="responsiveweb.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="images/logo.png" alt="logo" class="logo">
+            <nav>
+                <ul id="menulist">
+                    <li><a href="">Perfumaria</a></li>
+                    <li><a href="">Acessórios</a></li>
+                    <li><a href="">Maquiagens</a></li>
+                    <li><a href="">Outros</a></li>
+                </ul>
+            </nav>
+            <img src="images/menu.png" alt="menu" class="menu-icon" onclick="togglemenu()">
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h2>Hidratante Tododia <br> Pêssego</h2>
+                <h3>Conjunto de hidratante e sabonete</h3>
+                <p>Contém esponja para banho exclusiva</p>
+                <h4>99.90 R$</h4>
+                <button type="button">Compre agora <img src="images/arrow.png" alt="icone-botao"></button>
+            </div>
+            <div class="col-2">
+                <img src="images/produto.png" alt="produto" class="produto">
+                <div class="colorbox">
+                    <div class="add-btn">
+                        <img src="images/add.png" alt="botaoadd">
+                        <p><small>Adicionar ao carrinho</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="social-links">
+            <img src="images/fb.png" alt="facebook">
+            <img src="images/tw.png" alt="twitter">
+            <img src="images/ig.png" alt="instagram">
+        </div>
+    </div>
+
+    <script>
+        var menulist = document.getElementById("menulist");
+        menulist.style.maxHeight = "0px";
+        function togglemenu () {
+            if (menulist.style.maxHeight == "0px") {
+                menulist.style.maxHeight = "130px";
+            }
+            else {
+                menulist.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+</body>
+</html>
