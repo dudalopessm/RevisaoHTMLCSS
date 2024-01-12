@@ -1,2 +1,2 @@
-# RevisaoHTMLCSS
-Projetos aleatórios que fiz para revisar os conhecimentos de HTML e CSS.
+# HTMLCSS
+Random projects made to reforce the languages HTML and CSS.
